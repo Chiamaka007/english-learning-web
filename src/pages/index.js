@@ -5,12 +5,10 @@ import "react-circular-progressbar/dist/styles.css";
 import { Icon } from "@iconify/react";
 import LessonCarousel from "./components/LessonCarousel";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   const percentage = 70;
   return (
-    <main className={` bg-[#F6F8FE] h-full p-5 font-poppins overflow-y-scroll`}>
+    <main className="bg-[#F6F8FE] h-full p-5 font-poppins overflow-y-scroll">
       <div className=" flex justify-between">
         <div>
           <p>Hello Racheal</p>
@@ -26,7 +24,7 @@ export default function Home() {
         </div>
       </div>
       <div className="border-4 border-[#8792C9] bg-white mt-5 rounded-3xl px-6 py-3">
-        <p className="text-[#6C749C]">Today's goal</p>
+        <p className="text-[#6C749C]">Todays goal</p>
         <div className="flex items-center gap-5 mt-2">
           <div className="w-1/3">
             <CircularProgressbar
@@ -42,7 +40,7 @@ export default function Home() {
           <div className="w-2/3">
             <p className="text-lg font-bold ">Excellent!</p>
             <p className="text-sm">
-              You're almost there. Finish the goal to achieve
+              You are almost there. Finish the goal to achieve
             </p>
             <span className="flex items-center gap-1 text-[#F1976D]">
               <Icon icon="mdi:fire" width={20} />
