@@ -99,19 +99,19 @@ export default function Home() {
 
 const data = [
   {
-    img: "/images/man.png",
+    img: "/Images/avatar1.jpg",
     name: "Yasmin Lee",
     ethnicity: "Taiwan",
     number: 1234,
   },
   {
-    img: "/images/woman.png",
+    img: "/Images/avatar2.jpg",
     name: "Guy Hawkins",
     ethnicity: "Spain",
     number: 1120,
   },
   {
-    img: "/images/man.png",
+    img: "/Images/avatar3.jpg",
     name: "John Doe",
     ethnicity: "Spain",
     number: 960,
