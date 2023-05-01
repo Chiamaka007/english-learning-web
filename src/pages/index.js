@@ -110,4 +110,10 @@ const data = [
     ethnicity: "Spain",
     number: 1120,
   },
+  {
+    img: "/images/avatar3.jpg",
+    name: "John Doe",
+    ethnicity: "Spain",
+    number: 960,
+  },
 ];
