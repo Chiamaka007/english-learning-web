@@ -70,9 +70,11 @@ export default function Home() {
               className="flex bg-white items-center justify-between  p-3 rounded-2xl mx-4 mt-5"
             >
               <div className="flex gap-3 items-center">
-                <img
+                <Image
                   src={i.img}
                   alt=""
+                  width={40}
+                  height={40}
                   className="w-[40px] h-[40px] rounded-full"
                 />
                 <span>

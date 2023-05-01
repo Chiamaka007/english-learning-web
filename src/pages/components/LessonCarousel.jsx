@@ -79,7 +79,13 @@ const LessonCarousel = () => {
       {RecentSearches.map((i, idx) => (
         <div className="  mx-2 p-3 py-3  mt-20 " key={idx}>
           <div className="bg-white p-5 px-7 rounded-2xl">
-            <img src={i.img} alt="" className="h-[50px] lg-h-full w-full" />
+            <Image
+              src={i.img}
+              alt=""
+              className="h-[50px] lg-h-full w-full"
+              width={100}
+              height={100}
+            />
           </div>
           <div className="flex gap-1 items-center mt-3">
             <div class="w-full  rounded-full h-2.5 bg-[#C8CEED]">
